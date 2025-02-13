@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Nizar Afham</h1>
-<h3 align="center">I am a Computer Science student at Pertamina University with a strong interest in web and mobile app development. I am actively exploring and developing my skills in this area.</h3>
+<h3 align="left">I am a Computer Science student at Pertamina University with a strong interest in web and mobile app development. I am actively exploring and developing my skills in this area.</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
