@@ -1,105 +1,40 @@
-<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @keyframes typing {
-      from { width: 0; }
-      to { width: 120px; }
-    }
-    @keyframes blink {
-      50% { opacity: 0; }
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
-    }
-    .code-line {
-      stroke-dasharray: 50;
-      stroke-dashoffset: 50;
-      animation: draw 2s linear forwards infinite;
-    }
-    @keyframes draw {
-      to {
-        stroke-dashoffset: 0;
-      }
-    }
-    .typing-text {
-      animation: typing 3s steps(20) infinite;
-    }
-    .cursor {
-      animation: blink 1s step-end infinite;
-    }
-    .floating {
-      animation: float 3s ease-in-out infinite;
-    }
-    .title {
-      font-family: Arial, sans-serif;
-      font-size: 24px;
-      fill: #D8DEE9;
-    }
-    .subtitle {
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-      fill: #D8DEE9;
-    }
-    .social-icon:hover {
-      opacity: 0.8;
-    }
-  </style>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=000000&center=true&vCenter=true&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+Nizar+Afham;Welcome+to+my+GitHub!" alt="Typing SVG" />
+</div>
 
-  <!-- Title -->
-  <text x="200" y="40" text-anchor="middle" class="title">Hi 👋, I'm Nizar Afham</text>
-  
-  <!-- Subtitle -->
-  <text x="200" y="70" text-anchor="middle" class="subtitle" width="300">
-    <tspan x="200" dy="0">Computer Science student at Pertamina University with a</tspan>
-    <tspan x="200" dy="20">strong interest in web and mobile app development.</tspan>
-  </text>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
+</div>
 
-  <!-- Background -->
-  <rect x="50" y="100" width="300" height="200" fill="#2E3440" rx="10"/>
-  
-  <!-- Desk -->
-  <rect x="50" y="250" width="300" height="20" fill="#4C566A"/>
-  
-  <!-- Monitor -->
-  <g class="floating">
-    <rect x="120" y="130" width="160" height="100" rx="5" fill="#3B4252"/>
-    <rect x="125" y="135" width="150" height="90" rx="3" fill="#88C0D0"/>
-    <rect x="180" y="230" width="40" height="20" fill="#4C566A"/>
-    <rect x="160" y="245" width="80" height="5" fill="#4C566A"/>
-    
-    <!-- Code Lines -->
-    <line x1="135" y1="150" x2="215" y2="150" stroke="#2E3440" stroke-width="2" class="code-line"/>
-    <line x1="135" y1="170" x2="235" y2="170" stroke="#2E3440" stroke-width="2" class="code-line"/>
-    <line x1="135" y1="190" x2="195" y2="190" stroke="#2E3440" stroke-width="2" class="code-line"/>
-    
-    <!-- Blinking Cursor -->
-    <rect x="135" y="210" width="5" height="10" fill="#2E3440" class="cursor"/>
-  </g>
+<h3>About Me 👨‍💻</h3>
+<p align="left">A Computer Science student at Pertamina University with a strong interest in web and mobile app development</p>
 
-  <!-- Coffee Cup (Corrected orientation) -->
-  <g transform="translate(300, 220)">
-    <path d="M0,0 L20,0 L20,-20 L0,-20 Z" fill="#D8DEE9"/>
-    <path d="M20,-10 C25,-10 25,-15 20,-15" stroke="#D8DEE9" stroke-width="2" fill="none"/>
-    <!-- Steam -->
-    <path d="M8,-25 Q10,-35 12,-25" stroke="#D8DEE9" stroke-width="1" fill="none" class="floating"/>
-    <path d="M12,-25 Q14,-35 16,-25" stroke="#D8DEE9" stroke-width="1" fill="none" class="floating"/>
-  </g>
 
-  <!-- Plant -->
-  <g transform="translate(80, 220)">
-    <rect x="0" y="0" width="20" height="30" fill="#4C566A"/>
-    <path d="M10,-5 C0,-15 20,-15 10,-5" fill="#A3BE8C" class="floating"/>
-    <path d="M10,0 C0,-10 20,-10 10,0" fill="#A3BE8C" class="floating"/>
-  </g>
+<br/>
 
-  <!-- Social Media Icons -->
-  <h3 align="center">Connect with me:</h3>
-  <p align="center">
+<h3 align="center">Technologies & Tools 🛠</h3>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="javascript" />
+  <img src="https://img.shields.io/badge/Vue.js-42b983?style=for-the-badge&logo=vue.js&logoColor=white" alt="vuejs" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="git" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="flutter" />
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="mysql" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="laravel" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="php" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="python" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="django" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="bootstrap" />
+  <img src="https://img.shields.io/badge/Filament-FF8C00?style=for-the-badge&logo=filament&logoColor=white" alt="filament" />
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="java" />
+</div>
+
+<h3 align="left">Let's Connect! 🤝</h3>
+<p align="left">
     <a href="https://www.linkedin.com/in/nizar-afham-aflaha-80a855246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nizar afham aflaha" height="30" width="40" /></a>
     <a href="https://instagram.com/ny.zaru" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ny.zaru" height="30" width="40" /></a>
   </p>
-</svg>
-
-
-
 
