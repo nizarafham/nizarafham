@@ -9,7 +9,6 @@
 <h3>About Me 👨‍💻</h3>
 <p align="left">A Computer Science student at Pertamina University with a strong interest in web and mobile app development</p>
 
-
 <br/>
 
 <h3 align="center">Technologies & Tools 🛠</h3>
